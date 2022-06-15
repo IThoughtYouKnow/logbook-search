@@ -1,0 +1,10 @@
+{
+    "exclude": ["node_modules", "dist"],
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "Hooks/*": ["src/hooks/*"],
+            "Components/*": ["src/components/*"]
+        }
+    },
+}
